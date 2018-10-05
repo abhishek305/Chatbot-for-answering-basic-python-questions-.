@@ -1,0 +1,311 @@
+categories:
+- Python info
+conversations:
+-- What are Python decorators?
+- A Python decorator is a specific change that we make in Python syntax to alter functions .
+-- What is lambda in Python?
+- It is a single expression anonymous function often used as inline function.
+-- Explain how to delete a file in Python?
+-  By using a command os.remove (filename) or os.unlink(filename) 
+-- How Python is interpreted?
+- Python language is an interpreted language. Python program runs directly from the source code. It converts the source code that is written by the programmer into an intermediate language, which is again translated into machine language that has to be executed.
+-- What is the difference between list and tuple?
+- The difference between list and tuple is that list is mutable while tuple is not. Tuple can be hashed for e.g as a key for dictionaries.
+--  How are arguments passed by value or by reference?
+-  Everything in Python is an object and all variables hold references to the objects. The references values are according to the functions; as a result you cannot change the value of the references. However, you can change the objects if it is mutable.
+--  What is Dict and List comprehensions are?
+- They are syntax constructions to ease the creation of a Dictionary or List based on existing iterable.
+--  What is namespace in Python?
+-  In Python, every name introduced has a place where it lives and can be hooked for. This is known as namespace. It is like a box where a variable name is mapped to the object placed. Whenever the variable is searched out, this box will be searched, to get corresponding object.
+--  Why lambda forms in python does not have statements?
+-  A lambda form in python does not have statements as it is used to make new function object and then return them at runtime.
+--  What is pass in Python?
+-  Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there.
+--  What is pickling and unpickling?
+-  Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling. While the process of retrieving original Python objects from the stored string representation is called unpickling.
+--  What is map function in Python?
+- map function executes the function given as the first argument on all the elements of the iterable given as the second argument. If the function given takes in more than 1 arguments, then many iterables are given.
+--  What is Python?
+- Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.
+--  What are the supported data types in Python?
+-  Python has five standard data types − Numbers, String, List, Tuple, Dictionary
+--  How will you reverse a list?
+-  list.reverse() − Reverses objects of list in place.
+--  What is a Python module?
+-  A module is a Python script that generally contains import statements, functions, classes and variable definitions, and Python runnable code and it “lives” file with a ‘.py’ extension. zip files and DLL files can also be modules.Inside the module, you can refer to the module name as a string that is stored in the global variable name .
+--  How many kinds of sequences are supported by Python? What are they?
+-  Python supports 7 sequence types. They are str, list, tuple, unicode, byte array, xrange, and buffer. where xrange is deprecated in python 3.5.X.
+--  What is TkInter?
+-  TkInter is Python library. It is a toolkit for GUI development. It provides support for various GUI tools or widgets (such as buttons, labels, text boxes, radio buttons, etc) that are used in GUI applications. The common attributes of them include Dimensions, Colors, Fonts, Cursors, etc
+--  Is python a case sensitive language?
+-  Yes! Python is a case sensitive programming language.
+--  What is the output of print str if str = 'Hello World!'?
+-  It will print complete string. Output would be Hello World!.
+--  What are tuples in Python?
+-  A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parentheses.
+--  What are Python's dictionaries?
+-  Pythons dictionaries are kind of hash table type. They work like associative arrays or hashes found in Perl and consist of key-value pairs. A dictionary key can be almost any Python type, but are usually numbers or strings. Values, on the other hand, can be any arbitrary Python object.
+--  How will you get all the keys from the dictionary?
+-  Using dictionary.keys() function, we can get all the keys from the dictionary object.
+--  How will you get all the values from the dictionary?
+- Using dictionary.values() function, we can get all the values from the dictionary object.
+--  What is the purpose of // operator?
+-  // Floor Division − The division of operands where the result is the quotient in which the digits after the decimal point are removed.
+--  What is PEP8?
+-  This is a coding convention, a set of recommendation, on how best to write Python code and improve its readability.
+--  How do we interpret Python?
+-  Python language is an interpreted language. The program runs directly from the source code and converts the source code that the programmer writes into an immediate language that is then translated into a language that needs to be executed by a machine.
+--  What is the difference between list and tuple?
+-  While list is mutable, tuple is not. One can hash tuple, for instance, as a key for dictionaries.
+--  What are Dict and List Comprehensions?
+- These are syntax constructions that help to simplify the creation of a dictionary or list based on iterable that already exists.
+--  What is Lambda in Python?
+-  Lambda is a single expression anonymous function that is mostly used as inline function.
+--  What are iterators?
+-  Iterators are used for iterating a group of elements, containers like list.
+--  What is slicing?
+- Slicing is a mechanism that helps you in selecting a range of items from sequence types such as tuple, string, list, etc.
+--  What is docstring?
+-  Docstring is another name for a Python documentation string. It is way to document Python modules, classes and functions.
+--  What is pass in Python?
+-  Pass simply stands for, no-operation Python statement. It is a place holder in compound statement, where a blank should be left, with nothing written there.
+--  Why do lambda forms in Python not have statements?
+-  A lambda form does not have statements since it is used in making new function object and returning them at runtime.
+--  What is unittest?
+-  Unittest is the unit testing framework in Python. It aids in automation testing, sharing of setups, aggregation of tests into collections, shutdown code tests, etc.
+--  What is the difference between Xrange and range?
+-  While Xrange returns xrange objects, range on the other hand, returns the list and makes use of the same memory irrespective of the range size.
+--  How do you delete a file in Python?
+-  You simply make use of the command os.remove (filename) or os.unlink (filename)
+--  What is the use of the split function in Python?
+-  The split function in Python helps in breaking a string into shorter strings by using the defined separator. It provides a list of the words contained in the string.
+--  What is the purpose of PYTHONPATH environment variable?
+-  It has a role similar to PATH. This variable tells the Python interpreter where to locate the module files imported into a program. It should include the Python source library directory and the directories containing Python source code. PYTHONPATH is sometimes preset by the Python installer
+--  What is the purpose of PYTHONSTARTUP environment variables?
+-  It contains the path of an initialization file containing Python source code. It is executed every time you start the interpreter. It is named as .pythonrc.py in Unix and it contains commands that load utilities or modify 
+--  What is the purpose of PYTHONCASEOK environment variables?
+-  It is used in Windows to instruct Python to find the first case-insensitive match in an import statement. Set this variable to any value to activate it.
+--  What is the purpose of PYTHONHOME environment variables?
+-  It is an alternative module search path. It is usually embedded in the PYTHONSTARTUP or PYTHONPATH directories to make switching module libraries easy.
+--  What is the difference between list and tuples?
+-  Lists are mutable i.e they can be edited.Tuples are immutable (tuples are lists which can’t be edited).Lists are slower than tuples.Tuples are faster than list.
+--  What are the key features of Python?
+-  Python is an interpreted language, dynamically typed, well suited to object orientated programming, code is quick,etc.
+--  What is the difference between deep and shallow copy?
+-  Shallow copy is used when a new instance type gets created and it keeps the values that are copied in the new instance. Deep copy is used to store the values that are already copied.
+--  How can the ternary operators be used in python?
+-  The Ternary operator is the operator that is used to show the conditional statements. This consists of the true or false values with a statement that has to be evaluated for it.
+--  How is memory managed in Python?
+-  Python memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have an access to this private heap and interpreter takes care of this Python private heap.
+--  Explain Inheritance in Python with an example.
+-  Inheritance allows One class to gain all the members(say attributes and methods) of another class. Inheritance provides code reusability, makes it easier to create and maintain an application.
+--  Explain what Flask is and its benefits?
+-  Flask is a web micro framework for Python based on “Werkzeug, Jinja2 and good intentions” BSD license. Werkzeug and Jinja2 are two of its dependencies. This means it will have little to no dependencies on external libraries.  It makes the framework light while there is little dependency to update and less security bugs.
+--  What is the usage of help() function in Python?
+-  Help() function: The help() function is used to display the documentation string and also facilitates you to see the help related to modules, keywords, attributes, etc.
+--  What is the usage of dir() function in Python?
+-  Dir() function: The dir() function is used to display the defined symbols.
+--  What is dictionary in Python?
+-  The built-in datatypes in Python is called dictionary. It defines one-to-one relationship between keys and values. Dictionaries contain pair of keys and their corresponding values. Dictionaries are indexed by keys
+--  What is monkey patching in Python?
+-  In Python, the term monkey patch only refers to dynamic modifications of a class or module at run-time. 
+--  What does *args mean? 
+-  We use *args when we aren’t sure how many arguments are going to be passed to a function, or if we want to pass a stored list or tuple of arguments to a function.
+--  What does **kwargs mean? 
+-  **kwargsis used when we don’t know how many keyword arguments will be passed to a function, or it can be used to pass the values of a dictionary as keyword arguments.
+--  Explain split() method of “re” module in Python.
+-  split() – uses a regex pattern to “split” a given string into a list.
+--  Explain sub() method of “re” module in Python.
+-  sub() – finds all substrings where the regex pattern matches and then replace them with a different string
+--  Explain subn() method of “re” module in Python.
+-  subn() – it is similar to sub() and also returns the new string along with the no. of replacements.
+--  What is the difference between range & xrange?
+-  The only difference is that range returns a Python list object and x range returns an xrange object. 
+--  What is pickling?
+-  Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling.
+-- What is unpickling?
+-  The process of retrieving original Python objects from the stored string representation is called unpickling.
+--  Explain the use of session in Django framework?
+-  Django provides session that lets you store and retrieve data on a per-site-visitor basis. Django abstracts the process of sending and receiving cookies, by placing a session ID cookie on the client side, and storing all the related data on the server side.
+--  What is the purpose of is operator?
+-  is − Evaluates to true if the variables on either side of the operator point to the same object and false otherwise. x is y, here is results in 1 if id(x) equals id(y).
+--  What is the purpose of ** operator?
+-  ** Exponent − Performs exponential (power) calculation on operators. a**b = 10 to the power 20 if a = 10 and b = 20.
+--  What is the purpose of not in operator?
+-  not in − Evaluates to true if it does not finds a variable in the specified sequence and false otherwise. x not in y, here not in results in a 1 if x is not a member of sequence y.
+--  What is the purpose break statement in python?
+-  break statement − Terminates the loop statement and transfers execution to the statement immediately following the loop.
+--  What is the purpose continue statement in python?
+-  continue statement − Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
+--  How can you pick a random item from a list or tuple?
+-  choice(seq) − Returns a random item from a list, tuple, or string.
+--  How can you pick a random item from a range?
+-  randrange ([start,] stop [,step]) − returns a randomly selected element from range(start, stop, step).
+--  How can you get a random number in python?
+-  random() − returns a random float r, such that 0 is less than or equal to r and r is less than 1.
+--  How will you set the starting value in generating random numbers?
+-  seed([x]) − Sets the integer starting value used in generating random numbers. Call this function before calling any other random module function. Returns None.
+--  How will you randomizes the items of a list in place?
+-  shuffle(lst) − Randomizes the items of a list in place. Returns None.
+--  How will you capitalizes first letter of string?
+-  capitalize() − Capitalizes first letter of string.
+--  How will you check in a string that all characters are alphanumeric?
+-  isalnum() − Returns true if string has at least 1 character and all characters are alphanumeric and false otherwise.
+--  How will you check in a string that all characters are digits?
+-  isdigit() − Returns true if string contains only digits and false otherwise.
+--  Is Python case sensitive when dealing with identifiers?
+-  Yes, Case is always significant identifiers.
+--  What is the maximum possible length of an identifier?
+-  Identifiers can be of any length.
+--  Why are local variable names beginning with an underscore discouraged?
+-  As Python has no concept of private variables, leading underscores are used to indicate variables that must not be accessed from outside the class.
+--  All keywords in Python are in
+-  True, False and None are capitalized while the others are in lower case.
+--  Mathematical operations can be performed on a string.
+-  You can’t perform mathematical operation on string even if the string is in the form: ‘1234…’.
+--  Operators with the same precedence are evaluated in which manner?
+-  Left to Right
+--  The expression Int(x) implies that the variable x is converted to integer.
+-  True
+--  Which one of the following have the highest precedence in the expression a) Exponential b) Addition c) Multiplication d) Parentheses ?
+-  Just remember: PEMDAS, that is, Parenthesis, Exponentiation, Division, Multiplication, Addition, Subtraction. Note that the precedence order of Division and Multiplication is the same. Likewise, the order of Addition and Subtraction is also the same.
+--  Given a function that does not return any value, What value is thrown by default when executed in shell.
+-  Python shell throws a NoneType object back.
+--  What is the return type of function id ?
+-  int, Execute help(id) to find out details in python shell.id returns a integer value that is unique.
+--  In order to store values in terms of key and value we use what core data type?
+-  Dictionary stores values in terms of keys and values.
+--  What is the return value of trunc() ?
+-  Int, Executle help(math.trunc) to get details.
+--  Python standard library for database
+-  Sqlite3 is the standard library for python for database
+--  socket programming in python
+-  In python we can use import socket a standard library for socket programming in python
+--  Does python support MongoDB
+-  Yes Python support MongoDB
+--  How to use threading in python
+-  import threading can be used for threaded application in python
+--  do python support api integration
+-  Yes python support api integration
+--  Computer vision module for python
+-  Opencv2 is the computer vision library i python
+-- Does python support creating.exe files
+- Yes python support creating .exe file using module cx_freez
+--  Ide's available for python?
+-  Pycharm,idle,Spyder are various ide's for python programming
+--  can python be used for mobile app development
+-  Yes python can be used for mobile app development using module kivy
+--  And also using module Pygame
+-  What is the difference between deep and shallow copy?
+--  Shallow copy is used when a new instance type gets created and it keeps the values that are copied in the new instance.and Deep copy is used to store the values that are already copied. Deep copy doesn’t copy the reference pointers to the objects.
+-  How is Multithreading achieved in Python?
+--  Python has a multi-threading package but if you want to multi-thread to speed your code up.
+-  How can the ternary operators be used in python?
+--  The Ternary operator is the operator that is used to show the conditional statements. This consists of the true or false values with a statement that has to be evaluated for it.
+-  How is memory managed in Python?
+--  Python memory is managed by Python private heap space.
+-  what Flask is and its benefits? 
+-- Flask is a web micro framework for Python based on “Werkzeug, Jinja2 and good intentions” BSD license. Werkzeug and Jinja2 are two of its dependencies. This means it will have little to no dependencies on external libraries.  It makes the framework light while there is little dependency to update and less security bugs.
+-  What is the usage of help() and dir() function in Python?
+-  Help() and dir() both functions are accessible from the Python interpreter and used for viewing a consolidated dump of built-in functions. 
+-- What is dictionary in Python?
+-  The built-in datatypes in Python is called dictionary. It defines one-to-one relationship between keys and values. Dictionaries contain pair of keys and their corresponding values. Dictionaries are indexed by keys.
+--  What is monkey patching in Python?
+-  In Python, the term monkey patch only refers to dynamic modifications of a class or module at run-time. 
+--  What does this mean: *args, **kwargs? And why would we use it?
+-  We use *args when we aren’t sure how many arguments are going to be passed to a function, or if we want to pass a stored list or tuple of arguments to a function. **kwargsis used when we don’t know how many keyword arguments will be passed to a function, or it can be used to pass the values of a dictionary as keyword arguments.
+--  How can you generate random numbers in Python?
+-  Random module is the standard module that is used to generate the random number.
+--  What is pickling and unpickling?
+-  Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling. While the process of retrieving original Python objects from the stored string representation is called unpickling.
+--  Mention the differences between Django, Pyramid and Flask.
+-  Flask is a “microframework” primarily build for a small application with simpler requirements. In flask, you have to use external libraries. Flask is ready to use.Pyramid is built for larger applications. It provides flexibility and lets the developer use the right tools for their project. The developer can choose the database, URL structure, templating style and more. Pyramid is heavy configurable.Django can also used for larger applications just like Pyramid. It includes an ORM
+--  What is map function in Python?
+-  map function executes the function given as the first argument on all the elements of the iterable given as the second argument.
+--  How do you make 3D plots in python
+-  Matplotlib provides basic 3D plotting in the mplot3d
+--  What is the maximum possible length of an identifier?
+-  Identifiers can be of any length
+--  What are the supported data types in Python?
+-  Numbers,Strings,List,Tuples,Dictionaries
+--  How will you reverse a list?
+-  list.reverse() − Reverses objects of list in place
+--  Explain the use of with statement?
+-  In python generally “with” statement is used to open a file, process the data present in the file, and also to close the file without calling a close() method. “with” statement makes the exception handling simpler by providing cleanup activities.
+--  How many kinds of sequences are supported by Python? What are they?
+-  Python supports 7 sequence types. They are str, list, tuple, unicode, byte array, xrange, and buffer. where xrange is deprecated in python 3.5.X
+--  What is TkInter?
+-  TkInter is Python library. It is a toolkit for GUI development. It provides support for various GUI tools or widgets (such as buttons, labels, text boxes, radio buttons, etc) that are used in GUI applications. The common attributes of them include Dimensions, Colors, Fonts, Cursors, etc.
+--  Is Python object oriented? what is object oriented programming?
+-  Yes. Python is Object Oriented Programming language. 
+--  Does Python supports interfaces like in Java? Discuss.
+-  Python does not provide interfaces like in Java. Abstract Base Class (ABC) and its feature are provided by the Python’s “abc” module. 
+--  Differentiate between append() and extend() methods.?
+-  Both append() and extend() methods are the methods of list. These methods a re used to add the elements at the end of the list.-
+--  Explain help() and dir() functions in Python.
+-  The help() function displays the documentation string and help for its argument.
+--  What is the pass statement in Python?
+-  There may be times in our code when we haven’t decided what to do yet, but we must type something for it to be syntactically correct. In such a case, we use the pass statement.
+--  What is a closure in Python?
+-  A closure is said to occur when a nested function references a value in its enclosing scope.
+-- Explain relational operators in Python.
+-  Relational operators compare values.
+--  Explain logical operators in Python.
+-  We have three logical operators- and, or, not.
+--  What are membership operators?
+-  With the operators ‘in’ and ‘not in’, we can confirm if a value is a member in another
+--  Finally, tell us about bitwise operators in Python.
+-  These operate on values bit by bit.
+--  What is tuple unpacking?
+-  First, let’s discuss tuple packing. It is a way to pack a set of values into a tuple.
+--  What is the difference between .py and .pyc files?
+-  .py files are Python source files. .pyc files are the compiled bvtecode files that is generated by the Python compiler
+--  How do you invoke the Python interpreter for interactive use?
+-  python or pythonx.y where x.y are the version of the Python interpreter desired.
+--  How are Phon blocks defined?
+-  By indents or tabs. This is different from most other languages which use symbols to define blocks. Indents in Python are significant.
+--  Explain the use of try: except: raise, and finally:
+-  Try, except and finally blocks are used in Python error handling. 
+--  What happens if an error occurs that is not handled in the except block?
+-  The program tenuinates. and an execution trace is sent to sys.stderr.
+--  How are modules used in a Python program?
+-  Modules are brought in via the import statement.
+--  How do you create a Python function?
+-  Functions are defined using the def statement. An example might be def foo(bar):
+--  How is a Python class created?
+-  Classes are created using the class statement. An example might be class aa rdva rk(fooba r):
+--  How is a Python class instantiated?
+-  The class is instantiated by calling it directly.
+--  How does a function return values?
+-  Functions return values using the return statement
+--  What happens when a function doesn’t have a return statement? Is this valid?
+-  Yes, this is valid. The function will then return a None object. The end of a function is defined by the block of code being executed (i.e., the indenting) not by any explicit keyword.
+--  What is the lambda operator?
+-  The lambda operator is used to create anonymous functions. It is mostly used in cases where one wishes to pass functions as parameters. or assign them to variable names.
+--  Explain the difference between local and global namespaces.
+-  Local namespaces are created within a function. when that function is called. Global name spaces are created when the program starts.
+--  What are the two major loop statements?
+-  For and While Loop
+--  Explain the use of break and continue in Python looping.
+-  The break statement stops execution of the current loop. and transfers control to the next block. The continue statement ends the current block’s execution and jumps to the next iteration of the loop.
+--  When would you use a continue statement in a for loop?
+-  When processing a particular item was complete; to move on to the next, without executing further processing in the block. The continue statement says, “I’m done processing this item, move on to the next item.”
+-- When would you use a break statement in a for loop?
+-  When the loop has served its purpose. As an example. after finding the item in a list searched for, there is no need to keep looping. The break statement says, I’m done in this loop; move on to the next block of code.”
+--  What are the principal differences between the lambda and def?
+-  def can hold multiple expressions while lambda is a uni-expression function.
+--  How to re module
+-  By importing import re
+--  How many GUI modules are there in python?
+-  Pyqt5,tkinter,pyside2
+--  How can we plot graphs in python?
+-  In python we can use matplotlib for plotting graphs
+--  scientific libraries in python?
+-  Numpy,scipy,tensorflow,keras
+--  how can we perform web scraping in python
+- we can use bs4 module for web scraping in python
+--  game development module in python?
+- Pygame is the game development module in python
+--  Data filtering module in python
+-  Pandas is the data filtering module in python
+
